@@ -51,13 +51,13 @@ This mini-project is a comprehensive demonstration of building and deploying a m
 
 Follow these instructions to set up and run the application on your local machine.
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
-- **git clone** [https://github.com/zaybournand/Mini-Project.git](https://github.com/zaybournand/Mini-Project.git)
-- **cd Mini-Project**
+-git clone [https://github.com/zaybournand/Mini-Project.git](https://github.com/zaybournand/Mini-Project.git)
+- cd Mini-Project
 
-### 2. Frontend Setup (React App)
+2. Frontend Setup (React App)
 Navigate to the root of your React application:
 
 Bash
