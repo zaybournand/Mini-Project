@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env # Generic .env file (for local environment variables in root if any)
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.production
+# Backend specific ignores
+# ----------------------------------------
+
+# Backend Node.js dependencies
+/backend/node_modules
+
+# Backend local environment variables 
+/backend/.env
+/backend/mini-project-e570c-firebase-adminsdk-fbsvc-56b01ab5ee
+# Firebase Admin SDK Service Account JSON key (highly sensitive)
+# This ignores all .json files in the backend folder.
+# If you have other .json files in backend you need to commit, use a more specific pattern like:
+# /backend/*adminsdk*.json
+/backend/*.json 
+
+# Backend NPM debug logs
+/backend/npm-debug.log*
+
+
+
+.firebase
+README.old.md
